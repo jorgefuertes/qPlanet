@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OPML generado por qPlanet en Sat, 23 Jan 2010 11:37:08 +0000 -->
+<opml version="1.1">
+	<head>
+		<title></title>
+		<dateCreated>Sat, 23 Jan 2010 11:37:08 +0000</dateCreated>
+		<dateModified>Sat, 23 Jan 2010 11:37:08 +0000</dateModified>
+		<ownerName>Webmaster Hispalinux</ownerName>
+		<ownerEmail>webmaster@hispalinux.es</ownerEmail>
+	</head>
+	<body>
+<outline type="rss" text="Javier Cuchí" xmlUrl="http://www.elincordio.com" title="El Incordio" />
+<outline type="rss" text="RinzeWind" xmlUrl="http://rinzewind.org" title="Las penas del Agente Smith" />
+<outline type="rss" text="fernando.acero" xmlUrl="http://fernando-acero.livejournal.com/" title="Linux y Libertad" />
+<outline type="rss" text="Pedro J. Canut" xmlUrl="http://www.blogespierre.com" title="blogespierre - pedro j. canut" />
+<outline type="rss" text="admin" xmlUrl="http://hispalinux.es" title="Hispalinux" />
+<outline type="rss" text="ismael.olea" xmlUrl="http://olea.org/diario/index.html" title="Ismael Olea" />
+<outline type="rss" text="Alvaro Lopez Ortega" xmlUrl="http://www.alobbs.com" title="Alvaro's blog" />
+<outline type="rss" text="DaveFX" xmlUrl="http://www.davefx.com/" title="Un cacho de yo en línea" />
+<outline type="rss" text="H" xmlUrl="http://ochominutosdearco.blogspot.com/" title="Al grano, que el tiempo es importante" />
+<outline type="rss" text="Juan Rafael Fernández" xmlUrl="http://blog.ofset.org/jrfernandez/" title="Y con el mazo dando. jr's OFSET blog" />
+<outline type="rss" text="Alejandro Ayuso" xmlUrl="http://monocaffe.blogspot.com/" title="MonoCaffe" />
+<outline type="rss" text="daniel.martinez.cucalon" xmlUrl="http://www.servidorjesmar.net" title="El Rincón de Jesmar" />
+<outline type="rss" text="admin" xmlUrl="http://viernes.org" title="Viernes.Org" />
+<outline type="rss" text="Javier" xmlUrl="http://www.turegano.net" title="TUREGANO.NET » Planet" />
+<outline type="rss" text="aabalo" xmlUrl="http://aabalo.zoomblog.com/" title="Cartapacio de bits de Adolfo Abalo..." />
+<outline type="rss" text="Julian Coccia" xmlUrl="http://blog.julian.coccia.com/" title="Julian Coccia | blog" />
+<outline type="rss" text="miguel.gea" xmlUrl="http://xerakko.livejournal.com/" title="Twin blog" />
+<outline type="rss" text="manuel.cernuda" xmlUrl="http://www.manuelcernuda.net/nanoblog" title="ManuelCernuda.net  NanoBlog" />
+	</body>
+</opml>

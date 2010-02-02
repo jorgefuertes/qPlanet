@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<atom:link href="${LINK}/rss20.xml" rel="self" type="application/rss+xml" />
+		<title>${TITULO}</title>
+		<link>${LINK}</link>
+		<image>
+			<url>${ICONO}</url>
+			<title>${TITULO}</title>
+			<link>${LINK}</link>
+		</image>
+		<description>${DESCRIPCION}</description>
+		<language>${LENGUAJE}</language>
+		<generator>qPlanet</generator>
+		<webMaster>${EMAIL} (${OWNER})</webMaster>
+		<pubDate>${DATE}</pubDate>
+		<lastBuildDate>${DATE}</lastBuildDate>
+		<ttl>60</ttl>

@@ -1,0 +1,33 @@
+=======================================================================
+ qPlanet
+-----------------------------------------------------------------------
+ Un software para montar planetas de fuentes rss.
+-----------------------------------------------------------------------
+ Autor: Jorge Fuertes Alfranca - aka Queru
+ http://queru.org - http://viernes.org
+ jorge.fuertes@hispalinux.es - queru@queru.org
+.......................................................................
+ Este software se entrega bajo licencia:
+ Coloriuris azul -->
+ https://www.coloriuris.net/contratos/04eb3f516eaadb6264abaa44ff2e086d
+ Más datos en el fichero: LICENCIA
+=======================================================================
+
+Este software ha sido liberado bajo licencia libre Coloriuris Azul que incluye sello (y por tanto firma electrónica) de tiempo de la Fábrica Nacional de Moneda y Timbre. Algo que garantiza al usuario que yo hice esa cesión y que no la voy a revocar unilateralmente.
+
+El texto del contrato o licencia puede encontrarse y aceptarse aquí:
+
+https://www.coloriuris.net/contratos/04eb3f516eaadb6264abaa44ff2e086d
+
++-------------------------------+ +-------------------------------+
+| ¡HAY QUE ACEPTAR EL CONTRATO! | | ¡HAY QUE ACEPTAR EL CONTRATO! |
++-------------------------------+ +-------------------------------+
+
+Date cuenta de que para tener derecho a las cesiones que se hacen en la licencia, debes aceptar el contrato en línea.
+
+Por lo demás viene a ser una GPL, pero en Castellano y adaptada al derecho continental. Espero que pueda ser de utilidad a quién quiera utilizar este soft.
+
+Soft de terceros:
+-----------------
+
+qPlanet podría utilizar software de terceros en forma de bibliotecas o añadidos. Este software siempre irá acompañado de su propia licencia la cual permanece intacta y no se vé afectada por la que engloba al resto de qPlanet.

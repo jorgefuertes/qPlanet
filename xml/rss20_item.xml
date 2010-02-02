@@ -1,0 +1,8 @@
+		<item>
+			<title>${post:titulo}</title>
+			<author>${post:autor_email} (${post:autor})</author>
+			<link>${post:permalink}</link>
+			<description><![CDATA[${post:contenido_rss}]]></description>
+			<pubDate>${post:pubdate}</pubDate>
+			<guid>${post:blog_url}</guid>
+		</item>

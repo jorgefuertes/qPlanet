@@ -1,0 +1,13 @@
+<!--(${post:id}) ${post:author}: ${post:title} -->
+<div id="${post:id}" class="post">
+	<h2><a href="${post:permalink}">${post:title}</a></h2>
+	<div class="meta">
+		<div class="date">${post:date}<br />${post:time}</div>
+		<div class="avatar"><img src="${post:author_avatar}" alt="${post:author}" /></div>
+		<div class="author">By&nbsp;<a href="${post:author_link}">${post:author}</a><br />
+			At&nbsp;&nbsp;<a href="${post:blog_url}" title="${post:blog_desc}">${post:blog_title}</a></div>
+	</div>
+	<div class="description">${post:description}</div>
+	<div class="toggle">${post:toggle}</div>
+	<div class="content">${post:content}</div>
+</div>

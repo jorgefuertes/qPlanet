@@ -1,0 +1,136 @@
+# qPlanet
+#
+# Planet configuration.
+#
+
+options:
+  # Debug activation:
+  debug:	   false
+  info:		   true
+  reporting: E_ALL & ~E_DEPRECATED
+  
+  # Max number of posts by author:
+  maxposts:     2
+  
+  # Output directory:
+  outdir:	htdocs
+  
+  # Planet's file:
+  outfile:	index.html
+  
+  # Statistics code file.
+  # For example, the tipical js code from analytics.
+  statistics: html/stats.html
+  
+  # Default avatar's url:
+  default_avatar: http://planeta.hispalinux.es/gfx/tux.png
+  
+  # Refresh frequency, from cron or something. Informative:
+  refresh:	1h
+  
+meta:
+  title:	Planeta Hispalinux
+  owner:	Webmaster Hispalinux
+  email:	webmaster@hispalinux.es
+  description:  Los socios de Hispalinux
+  keywords:     software, libre, cultura, geek, linux, gnu
+  link:         http://planeta.hispalinux.es
+  # RSS feed general icon.
+  icon:        /gfx/hl_icono.png
+  language:     es-es
+  date_format: %d-%m-%y
+
+# Repository of feeds and avatars:
+feeds:
+  hispalinux.es:
+    url:    http://hispalinux.es/node/feed
+    email:  info@hispalinux.es
+    avatar:
+  fernando.acero:
+    url:    http://fernando-acero.livejournal.com/data/rss
+    email:  fernando.acero@hispalinux.es
+    avatar: facero@teleline.es
+  david.marin:
+    url:    http://www.davefx.com/feeds/posts/default?alt=rss
+    email:  david.marin@hispalinux.es
+    avatar: davefx@gmail.com
+  ismael.olea:
+    url:    http://olea.org/diario/olea.rss2
+    email:  ismael.olea@hispalinux.es
+    avatar: ismael.olea@hispalinux.es
+  pedro.canut:
+    url:    http://blogespierre.com/feed
+    email:  pedro.canut@hispalinux.es
+    avatar: pjcanut@canutygravalos.com
+  juanrafael.fernandez:
+    url:    http://blog.ofset.org/jrfernandez/index.php?feed/rss2
+    email:  juanrafael.fernandez@hispalinux.es
+    avatar:
+  adolfo.abalo:
+    url:    http://aabalo.zoomblog.com/rss.xml
+    email:  adolfo.abalo@hispalinux.es
+    avatar:
+  jorge.fuertes:
+    url:    http://viernes.org/feed
+    email:  jorge.fuertes@hispalinux.es
+    avatar: queru@queru.org
+  josemaria.mateos:
+    url:    http://rinzewind.org/feed
+    email:  josemaria.mateos@hispalinux.es
+    avatar: chema@rinzewind.org
+  rene.merou:
+    url:    http://ochominutosdearco.blogspot.com/feeds/posts/default
+    email:  rene.merou@hispalinux.es
+    avatar: ochominutosdearco@gmail.com
+  javier.cuchi:
+    url:    http://www.elincordio.com/feed
+    email:  javier.cuchi@hispalinux.es
+    avatar: cuchibeltran@gmail.com
+  julian.coccia:
+    url:    http://blog.julian.coccia.com/feeds/posts/default
+    email:  julian.coccia@hispalinux.es
+    avatar: julian@coccia.com
+  daniel.martinez.cucalon:
+    url:    http://www.servidorjesmar.net/component/option,com_rss/Itemid,0/feed,RSS2.0/no_html,1/
+    email:  daniel.martinez.cucalon@hispalinux.es
+    avatar: entaltoaragon@gmail.com
+  enrique.verdes:
+    url:    http://www.elgallego.info?feed=rss2
+    email:  enrique.verdes@hispalinux.es
+    avatar: enrique.verdes@hispalinux.es
+  alejandro.ayuso:
+    url:    http://monocaffe.blogspot.com/feeds/posts/default?alt=rss
+    email:  alejandro.ayuso@hispalinux.es
+    avatar:
+  alvaro.lopez:
+    url:    http://www.alobbs.com/feed
+    email:  alvaro.lopez@hispalinux.es
+    avatar: alvaro@alobbs.com
+  josemaria.lancho:
+    url:    http://www.legalventure.com/blog/?feed=rss2
+    email:  josemaria.lancho@hispalinux.es
+    avatar: legalavatar@queru.org
+  manuel.cernuda:
+    url:    http://feeds.feedburner.com/manuelcernuda
+    email:  manuel.cernuda@hispalinux.es
+    avatar: correo@manuelcernuda.net
+  javier.turegano:
+    url:    http://www.turegano.net/category/planet/feed/
+    email:  javier.turegano@hispalinux.es
+    avatar: javier.turegano@hispalinux.es
+  miguel.gea:
+    url:    http://xerakko.livejournal.com/data/rss
+    email:  miguel.gea@hispalinux.es
+    avatar: miguel.gea@hispalinux.es    
+
+# Other similar planets:
+planets:
+  unplug:
+    name: Planeta Unplug
+    url:    http://planeta.unplug.org.ve
+    rss:    http://planeta.unplug.org.ve/rss20.xml
+  ousli:
+    name: Planeta OUSLI
+    url:    http://planet.ousli.org
+    rss:    http://planet.ousli.org/rss20.xml
+    

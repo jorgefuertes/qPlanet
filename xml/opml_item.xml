@@ -1,0 +1,1 @@
+<outline type="rss" text="${post:autor}" xmlUrl="${post:blog_url}" title="${post:blog_title}" />
