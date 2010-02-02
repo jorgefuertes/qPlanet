@@ -1,47 +1,50 @@
 =======================================================================
  qPlanet
 -----------------------------------------------------------------------
- Un software para montar planetas de fuentes rss.
+ A free software to make rss planets.
 -----------------------------------------------------------------------
- Autor: Jorge Fuertes Alfranca - aka Queru
- http://queru.org - http://viernes.org
- jorge.fuertes@hispalinux.es - queru@queru.org
+ Author: Jorge Fuertes Alfranca - aka Queru
+ http://jorgefuertes.com
+ jorge@jorgefuertes.com
 .......................................................................
- Este software se entrega bajo licencia:
- Coloriuris azul -->
- https://www.coloriuris.net/contratos/04eb3f516eaadb6264abaa44ff2e086d
- Más datos en el fichero: LICENCIA
+ Software is released under:
+ GPL3 license -> http://www.gnu.org/licenses/gpl-3.0.html
+ See the LICENSE file for futher reference.
 =======================================================================
 
-SOBRE QPLANET:
+ABOUT QPLANET:
 --------------
 
-Hace poco me hallaba haciendo una migración de sistemas de Hispalinux[1] con Antonio Zamarra[2], y hablando con él coincidimos en que el planeta[3] en python que había no nos gustaba y no funcionaba demasiado bien.
+Some time ago, Hispalinux[1], the Spain's biggest open source users associaton, has the need of a new planet software.
+They has been using a python programed planet, but was a few bugs, lacks of uft8 support, and the visual aspect was
+a few ugly.
 
-Me puse manos a la obra para hacer algo parecido pero más al gusto de un seguidor de la tecnología KISS (Keep It Simple Stupid), aunque claro, si has de hacer una máquina del tiempo, hazla con algo de clase y utiliza un DeLorean: Php5[4] a pedal, simplepie[5] para parsear los RSS y spyc[6] para tener una bonita configuración en yaml[7].
+I got down to work to make something similar but based in the KISS technology (Keep It Simple Stupid), although...
+if you makes a time machine... do it with some elegance and use a DeLorean: plain php5[4], simplepie[5] to parse the RSS
+and spyc[6] to have a nice yaml[7] configuration.
 
-Estoy bastante satisfecho del código porque no es ni bonito ni feo, ni efeciente ni pesado… es lo que ha fluido directamente de mi cerebro al editor de textos, y la experiencia ha sido mística. ;-)
+I'm very happy with the code, because it's not pretty or ugly, not efficient or heavy, it's the direct fluid from my
+brain to the text editor, and has been a mystical experience. ;-)
 
-Hay un par de bugs que corregiré en un rato y se puede decir que ya tenemos versión 1.0 del nuevo y flamante planeta de Hispalinux.
+This software can be used to create a lot of planets, not only the Hispalinux's one. Associations, business, cities...
+all you want.
 
-Pero este software no sólo vale para un planeta. En realidad con cambiarle los feeds en la configuración, sirve para montar planetas de cualquier cosa, de asociaciones, de empresas, de ciudades… Lo que queráis.
+The code its at public disposal here[8].
 
-El código está disponible aquí[8].
+Of course, if you need adaptations or consultant on this software... nobody better than the author :-)
 
-Por supuesto si alguien necesitase una adaptación o una consultoría sobre este software libre… quién mejor que el autor ;-).
-
-NOTAS:
+NOTES:
 [1] http://hispalinux.es
-[2] Antonio Zamarra es un personaje ficticio creado por unos individuos de baja catadura moral, y de escaso calado intelectual, para apoyar un burdo intento de golpe de estado en Hispalinux, intentando socavar la autoridad de la junta directiva mediante FUDs y engaños. Actualmente lo utilizamos cuando queremos decir que nadie nos ha ayudado (me ha ayudado Zamarra) o llamamos Zamarras a aquellos peleles controlados por intereses políticos y/o económicos. También se llama Zamarrismo a aquellos movimientos organizados que, dignos del circo Price, intentan arrimar el ascua a su sardina y vivir del cuento y del pillaje a costa de organizaciones honorables y de la gente honesta.
 [3] http://planeta.hispalinux.es
 [4] http://php.net
 [5] http://simplepie.org
 [6] http://spyc.sourceforge.net
 [7] http://www.yaml.org
-[8] http://code.google.com/p/qplanet
+[8] http://jorgefuertes.github.com/qPlanet
 
-AGRADECIMIENTOS:
+AKNOWLEDGEMENTS:
 ----------------
 
-- A Alejandro Ayuso por el icono para enlazar el planeta.
-- A muchos socios de Hispalinux que me han enviado sugerencias, bugs y apoyo.
+- To Alejandro Ayuso who's provides the planet link icon.
+- To many Hispalinux's members for send his comments, bugs and support.
+- To very welcomed donations.
