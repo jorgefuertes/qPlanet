@@ -18,9 +18,12 @@ QUICK INSTALL:
 
 1.- LATEST VERSION:
 
-        Get the latest version from github:
+        Get the latest version from github, if you have git installed:
 	
-		# svn checkout http://qplanet.googlecode.com/svn/trunk/ qplanet
+		# git clone git://github.com/jorgefuertes/qPlanet.git
+
+        Or from http:
+
 
 
 2.- SETUP YOUR PLANET:
