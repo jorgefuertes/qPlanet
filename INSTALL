@@ -28,8 +28,9 @@ QUICK INSTALL:
 
 2.- SETUP YOUR PLANET:
 
-        All planet's configuration it's in the 'config.yml' file. You must edit it with any utf-8 capable editor, like
-        vi, vim, emacs o another typical programer's tool.
+        All planet's configuration is in the 'config.yml' file. You must edit it with any utf-8 capable editor, like
+        vi, vim, emacs or another typical programer's tool. We have provided an example configuration file named
+        'config.yml.dist'.
 
         The config file it's very intuitive. You can modify it at you wish, ever preserving the yaml format. We can find
         yaml format reference at:

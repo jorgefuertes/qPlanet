@@ -77,6 +77,13 @@ class Rss
                                                     .$posts[$timestamp]['id']
                                                     ."\"); return false;' href=\"#\">&dArr; Read more</a>";
 					}
+					// Microblogging posts have same description as title
+					if( FALSE !== strpos( $posts[$timestamp]['title'], $posts[$timestamp]['description'] ) )
+					{
+						$posts[$timestamp]['description']     = "";
+						$posts[$timestamp]['content']       = "";
+						$posts[$timestamp]['toggle']          = "";
+					}
 					# Rss:
 					$posts[$timestamp]['description_rss'] = $posts[$timestamp]['description'];
 					$posts[$timestamp]['content_rss']     = $posts[$timestamp]['content'];
@@ -91,7 +98,7 @@ class Rss
 					{
 						Debug::say("No author data feed ".$name);
 						$posts[$timestamp]['author'] = $name;
-						$posts[$timestamp]['author_link'] = $feed['url'];
+						$posts[$timestamp]['author_link'] = $rss->get_permalink();
 					}	
 					# Si han quedado vacíos pese a todo:
 					if(empty($posts[$timestamp]['author']))
@@ -105,9 +112,12 @@ class Rss
 	
 					$posts[$timestamp]['author_email'] = $feed['email'];
 					# Gravatar:
-					$posts[$timestamp]['author_avatar'] =
+					if( strlen( $feed['avatar'] ) )
+						$posts[$timestamp]['author_avatar'] =
                                             "http://www.gravatar.com/avatar.php?gravatar_id=".md5($feed['avatar'])
                                             ."&amp;size=40&amp;default=".urlencode(DEFAULT_AVATAR);
+					else if( strlen( $feed['avatar_url'] ) )
+						$posts[$timestamp]['author_avatar'] = $feed['avatar_url']
 					# Blog:
 					$posts[$timestamp]['blog_title']   = $rss->get_title();
 					$posts[$timestamp]['blog_url']     = $rss->get_permalink();

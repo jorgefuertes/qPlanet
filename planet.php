@@ -10,9 +10,9 @@
  **/
 
 # Setup class autoload:
-function __autoload($clase)
+function __autoload($class)
 {
-	require_once("include/".$clase.".class.php");
+	require_once("include/".$class.".class.php");
 }
 
 # General configuration, options and feeds:
@@ -112,7 +112,7 @@ $fOutput->write(File::ReadAndParse('html/stats.html'));
 	
 # Closure:
 Debug::info("Closures");
-$fOutput->write(File::ReadAndParse('html/pie.html'));
+$fOutput->write(File::ReadAndParse('html/footer.html'));
 $fOutput->writeRss(File::Read('xml/rss20_foot.xml'));
 
 Debug::info("EOF");
