@@ -16,7 +16,7 @@ ABOUT QPLANET:
 --------------
 
 Some time ago, Hispalinux[1], the Spain's biggest open source users associaton, has the need of a new planet software.
-They has been using a python programed planet, but was a few bugs, lacks of uft8 support, and the visual aspect was
+They has been using a python programed planet, but it had a few bugs, lacks of uft8 support, and the visual aspect was
 a few ugly.
 
 I got down to work to make something similar but based in the KISS technology (Keep It Simple Stupid), although...
