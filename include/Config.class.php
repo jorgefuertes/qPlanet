@@ -42,7 +42,7 @@ class Config
 		define('LANGUAGE',       $this->aConfig['meta']['language']);
 		define('OWNER',          $this->aConfig['meta']['owner']);
 		define('EMAIL',          $this->aConfig['meta']['email']);
-                define('DATE_FORMAT',    $this->aConfig['options']['date_format']);
+                define('DATE_FORMAT',    $this->aConfig['meta']['date_format']);
 	}
 		
 	# Dumps the config for debug purposes:
