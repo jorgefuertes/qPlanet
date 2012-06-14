@@ -16,7 +16,7 @@ class Rss
 	public function Rss()
 	{
 		# Simplepie: 3rd-party rss processing library:
-		require_once('3rd-party/simplepie/simplepie.inc');
+		include_once('3rd-party/simplepie/simplepie.inc');
 		include_once('3rd-party/simplepie/idn/idna_convert.class.php');
 	}
 	
@@ -34,6 +34,7 @@ class Rss
 			Debug::info("Getting posts from ".$feed['url']);
 			$rss = new SimplePie($feed['url']);
 			$rss->handle_content_type();
+			$rss->force_feed(true);
 			$counter = 1;
 			foreach($rss->get_items() as $item)
 			{
@@ -117,7 +118,8 @@ class Rss
                                             "http://www.gravatar.com/avatar.php?gravatar_id=".md5($feed['avatar'])
                                             ."&amp;size=40&amp;default=".urlencode(DEFAULT_AVATAR);
 					else if( strlen( $feed['avatar_url'] ) )
-						$posts[$timestamp]['author_avatar'] = $feed['avatar_url']
+						$posts[$timestamp]['author_avatar'] = $feed['avatar_url'];
+					
 					# Blog:
 					$posts[$timestamp]['blog_title']   = $rss->get_title();
 					$posts[$timestamp]['blog_url']     = $rss->get_permalink();

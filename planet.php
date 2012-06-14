@@ -9,11 +9,15 @@
  * 
  **/
 
+
+
 # Setup class autoload:
 function __autoload($class)
 {
 	require_once("include/".$class.".class.php");
 }
+
+
 
 # General configuration, options and feeds:
 $Config = new Config;
@@ -21,8 +25,8 @@ $Config->SetOpts();
 error_reporting($Config->getOpt('options', 'reporting'));
 
 # Simplepie: 3rd-party rss processing:
-require_once('3rd-party/simplepie/simplepie.inc');
-include_once('3rd-party/simplepie/idn/idna_convert.class.php');
+#require_once('3rd-party/simplepie/SimplePieAutoloader.php');
+#include_once('3rd-party/simplepie/idn/idna_convert.class.php');
 
 # RSS init:
 $rss = new Rss;
